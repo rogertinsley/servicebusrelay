@@ -3,6 +3,6 @@
 Modify: 
 
 * ServiceBusRelay.Server.Program 
-* ServiceBusRealy.WebClient.HomeController
+* ServiceBusRelay.WebClient.HomeController
 
 To include your issuer name and secret.
