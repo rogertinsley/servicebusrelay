@@ -18,7 +18,7 @@ namespace ServiceBusRelay.WebClient.Controllers
         {
             var factory = new ChannelFactory<IConsoleService>(
                 new NetTcpRelayBinding(),
-                new EndpointAddress("sb://rogertinsley.servicebus.windows.net/console")
+                new EndpointAddress("sb://NAMESPACE.servicebus.windows.net/console")
             );
 
             factory.Endpoint.Behaviors.Add(new TransportClientEndpointBehavior
