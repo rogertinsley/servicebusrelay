@@ -5,4 +5,4 @@ Modify:
 * ServiceBusRelay.Server.Program 
 * ServiceBusRelay.WebClient.HomeController
 
-To include your issuer name and secret.
+To include your Service Bus namespace, issuer name and secret.
